@@ -52,7 +52,7 @@ function selectCountry() {
       if (select.options[i].text.toLowerCase() === searchValue) {
           select.selectedIndex = i;
 
-          search.value = "Search country    ";
+          search.value = " ";
           break;
       }
   }
